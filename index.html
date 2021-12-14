@@ -1,68 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Web site created using CloudBase Webify">
-    <title>Hello Webify！</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-                'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-                sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-        code {
-            font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-                monospace;
-        }
-        .App {
-            text-align: center;
-        }
-
-        .App-logo {
-            height: 40vmin;
-            pointer-events: none;
-        }
-
-        @media (prefers-reduced-motion: no-preference) {
-            .App-logo {
-                animation: App-logo-spin infinite 20s linear;
-            }
-        }
-
-        .App-header {
-            background-color: #efefef;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-size: calc(10px + 2vmin);
-            color: black;
-        }
-
-        .App-link {
-            color: #108ee9;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hong Dou 的 个人主页|欢迎来到我的主场~</title>
+    <meta name="keywords" content="Hong Dou个人主页">
+    <meta name="description" content="简单且渺小">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+    <link href="http://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <div id="root">
-        <div class="App">
-            <header class="App-header">
-                <img src="https://main.qcloudimg.com/raw/2f3b21706c37e8685efe5c60b26ceb24.png" class="App-logo" alt="logo">
-                <p>Welcome to Webify！</p>
-                <a class="App-link" href="https://webify.cloudbase.net/"
-                    target="_blank" rel="noopener noreferrer">webify.cloudbase.net</a>
-            </header>
+    <div class="box">
+        <!-- 动态背景 -->
+        <video src="猫猫云.mp4" autoplay muted loop></video>
+
+        <div class="content">
+
+            <!-- <div class="picture">
+                <img src="imgaes/1.jpg" alt="">
+            </div> -->
+            <div class="ide">
+
+                <img src="imgaes/3.jpg" alt="">
+                <h2>Hong Dou 的 个人网页</h2>
+                <span><i class="fa fa-map-marker fa-lg"></i>江西 . 鹰潭</span>
+                <span>爱好：游戏丶游泳丶睡觉</span>
+                <span>你从未尝试过往上爬，所以凭什么看最美的风景。</span>
+                <ul>
+                    <li> <a href="https://jq.qq.com/?_wv=1027&k=zJC6ZcGx" title="官网"><i class="fa fa-paper-plane-o"></i></a></li>
+                    <li> <a href="https://jq.qq.com/?_wv=1027&k=zJC6ZcGx" title="Q Q"><i class="fa fa-qq"></i></a></li>
+                    <li> <a href="https://jq.qq.com/?_wv=1027&k=zJC6ZcGx" title="QQ群"><i class="fa fa-users"></i></a></li>
+
+                </ul>
+
+            </div>
+
+
         </div>
+
     </div>
+    <div id="aplayer" class="aplayer" data-order="random" data-id="5210965038" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
+    <!-- aplayer -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/layer/layer.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/kaygb/kaygb@master/js/v3.js"></script>
+    <!-- end_aplayer -->
+
 </body>
+
 
 </html>
